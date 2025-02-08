@@ -11,144 +11,131 @@
     <link rel="stylesheet" href="../static/dashboard_stylesheet.css">
 </head>
 
-<body>
+<body class="bg-dark text-light">
 
-    <header>
-        <div class="dashboard-title">E-Commerce Data Dashboard</div>
+    <!-- Header -->
+    <header class="py-5 custom-grey-header text-white text-center">
+        <h1 class="display-4 font-weight-bold">E-Commerce Data Dashboard</h1>
+        <p class="lead mb-0">Analyze trends, track performance, and gain insights.</p>
     </header>
 
-    <div class='container'>
+    <!-- Main Container -->
+    <div class="container my-5">
 
-        <section>
-            <div class="chart-row">
-                <div class="chart-container full-width">
-                    <h2>Orders Over Time</h2>
-                    <canvas id="ordersChart"></canvas>
+
+        <section class="row mb-5">
+            <div class="col-md-6 mb-4">
+                <div class="card bg-dark text-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Orders Over Time</h5>
+                        <canvas id="ordersChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card bg-dark text-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Revenue Generation</h5>
+                        <canvas id="revenueChart"></canvas>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <div class="chart-row">
-                <div class="chart-container half-width">
-                    <h2>Low Stock Levels</h2>
-                    <canvas id="stockChart"></canvas>
+
+        <section class="row mb-5">
+            <!-- Customer Retention -->
+            <div class="col-md-4 mb-4">
+                <div class="card bg-dark text-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Customer Retention</h5>
+                        <canvas id="customerRetentionChart"></canvas>
+                    </div>
                 </div>
-                <div class="chart-container half-width">
-                    <h2>Most Popular Products</h2>
-                    <canvas id="popularProductsChart"></canvas>
+            </div>
+
+            <!-- Product Sales by Region -->
+            <div class="col-md-4 mb-4">
+                <div class="card bg-dark text-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Sales by Region</h5>
+                        <canvas id="productSalesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shipping Time Over Time -->
+            <div class="col-md-4 mb-4">
+                <div class="card bg-dark text-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Shipping Time Over Time</h5>
+                        <canvas id="shippingTimeChart"></canvas>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <section class="row mb-5">
+            <div class="col-md-6 mb-4">
+                <div class="card bg-dark text-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Low Stock Levels</h5>
+                        <canvas id="stockChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card bg-dark text-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Most Popular Products</h5>
+                        <canvas id="popularProductsChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category and Payment Insights Section -->
+        <section class="row mb-5">
+            <div class="col-md-6 mb-4">
+                <div class="card bg-dark text-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Popular Categories</h5>
+                        <canvas id="categoryPopularityChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card bg-dark text-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Popular Payment Methods</h5>
+                        <canvas id="paymentMethodChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Temperature Insights Section -->
+        <section class="row">
+            <div class="col-12">
+                <div class="card bg-dark text-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Temperature Over Time</h5>
+                        <canvas id="temperatureChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
 
-    <footer>
-        <div class="footer">© 2023 CCL Eccomerce Dashboard</div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-0">© 2023 CCL E-Commerce Dashboard | All rights reserved</p>
     </footer>
 
+    <!-- JavaScript -->
+    <script src="../static/dashboard-script.js"></script>
 
-    <script>
-
-        // Fetch and render orders over time chart
-        fetch('/api/orders_over_time')
-            .then(response => response.json())
-            .then(data => {
-                const ctx = document.getElementById('ordersChart').getContext('2d');
-                new Chart(ctx, {
-                    type: 'line',
-                    data: {
-                        labels: data.dates,
-                        datasets: [{
-                            label: 'Number of Orders',
-                            data: data.counts,
-                            borderColor: 'rgba(75, 192, 192, 1)',
-                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                            fill: false
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        scales: {
-                            x: {
-                                type: 'time',
-                                time: {
-                                    unit: 'day'
-                                }
-                            },
-                            y: {
-                                beginAtZero: true
-                            }
-                        }
-                    }
-
-                });
-            });
-
-        // Fetch and render low stock levels chart
-        fetch('/api/low_stock_levels')
-            .then(response => response.json())
-            .then(data => {
-                const ctx = document.getElementById('stockChart').getContext('2d');
-                new Chart(ctx, {
-                    type: 'bar',
-                    data: {
-                        labels: data.products,
-                        datasets: [{
-                            label: 'Stock Quantity',
-                            data: data.quantities,
-                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                            borderColor: 'rgba(255, 99, 132, 1)',
-                            borderWidth: 1
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        scales: {
-                            y: {
-                                beginAtZero: true
-                            },
-                            x: {
-                                display: false  // This will hide the x-axis labels
-                            }
-                        }
-                    }
-                });
-            });
-
-        // Fetch and render most popular products bar chart
-        fetch('/api/most_popular_products')
-            .then(response => response.json())
-            .then(data => {
-                const productNames = data.map(item => item.product_name);
-                const quantities = data.map(item => item.total_quantity);
-
-                const ctx = document.getElementById('popularProductsChart').getContext('2d');
-                new Chart(ctx, {
-                    type: 'bar',
-                    data: {
-                        labels: productNames,
-                        datasets: [{
-                            label: 'Quantity Sold',
-                            data: quantities,
-                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                            borderColor: 'rgba(75, 192, 192, 1)',
-                            borderWidth: 1
-                        }]
-                    },
-                    options: {
-                        scales: {
-                            y: {
-                                beginAtZero: true
-                            },
-                            x: {
-                                display: false  // This will hide the x-axis labels
-                            }
-                        }
-                    }
-                });
-            });
-
-    </script>
 </body>
 
 </html>

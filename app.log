@@ -1,0 +1,639 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\venv\\Lib\\site-packages\\flask\\signals.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:50] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:50] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:53] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:53] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:53] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:53] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:53] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:53] "GET /api/most_popular_products HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 18:56:53] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:04] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:04] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:04] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:04] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:04] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:04] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:04] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:04] "GET /api/low_stock_levels HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:04] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:15] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:15] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:15] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:15] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:15] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:15] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:15] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:15] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:01:15] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:03:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:03:51] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:03:51] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:03:51] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:03:51] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:03:51] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:03:51] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:03:51] "GET /api/most_popular_products HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:03:51] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:03:51] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:04:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:04:34] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:04:34] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:04:34] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:04:34] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:04:34] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:04:34] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:04:34] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:04:34] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:04:35] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:05:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:05:23] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:05:23] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:05:23] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:05:23] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:05:23] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:05:23] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:05:23] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:05:23] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:05:23] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:07:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:07:34] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:07:34] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:07:34] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:07:34] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:07:34] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:07:34] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:07:34] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:07:34] "GET /api/most_popular_products HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:07:34] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "[35m[1mGET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "GET /api/most_popular_products HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:16] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "[35m[1mGET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:29] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "GET /api/most_popular_products HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "[35m[1mGET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:08:56] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "GET /api/most_popular_products HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:09:36] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:28] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:28] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:28] "[33mGET /api/orders_over_time HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:28] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:28] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:28] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:28] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:28] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:28] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:10:28] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:11:13] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:34] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:34] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:41] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:41] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:42] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:42] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET /api/most_popular_products HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:13:50] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:40] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:40] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:40] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:40] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:40] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:40] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:40] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:40] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:40] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:15:41] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:16:29] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:39] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:39] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:39] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:39] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:39] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:39] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:39] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:39] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:39] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:18:40] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:43] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:19:57] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "GET /api/low_stock_levels HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:20:13] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:21:16] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:26] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:26] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:26] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:26] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:26] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:26] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:26] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:26] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:26] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:59] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:23:59] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:00] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:00] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:00] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:00] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:00] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:01] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:01] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:01] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:01] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:01] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:02] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:02] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:02] "GET /api/orders_over_time_filtered?start_date=2023-01-15&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:13] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:14] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:14] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:14] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:14] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:14] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:14] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:15] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:15] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:15] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:15] "GET /api/orders_over_time_filtered?start_date=2023-03-18&end_date=2023-07-21 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "GET /api/orders_over_time_filtered?start_date=2023-01-01&end_date=2023-12-31 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:24:37] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /api/customer_retention HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /api/product_sales_by_region HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /api/shipping_time_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /api/low_stock_levels HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:29:22] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "GET /api/product_sales_by_region HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "[35m[1mGET /api/customer_retention HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "[35m[1mGET /api/shipping_time_over_time HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:32:49] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET /api/customer_retention HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET /api/product_sales_by_region HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET /api/shipping_time_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:33:05] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug: * Detected change in 'C:\\Users\\Jibran\\OneDrive\\Documents\\GitHub\\dashboards\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 812-842-441
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET /api/customer_retention HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET /api/product_sales_by_region HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET /api/shipping_time_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2025 19:35:08] "GET /api/temperature_over_time HTTP/1.1" 200 -
